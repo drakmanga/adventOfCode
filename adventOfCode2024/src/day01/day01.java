@@ -1,13 +1,14 @@
+package day01;
 
-import java.io.File;  // Import the File class
+import java.io.*;
 import java.util.*;
-import java.io.FileNotFoundException;
 
-public class AdventOfCode {
+
+public class day01 {
     public static void main(String[] args) {
 
         try {
-            File myObj = new File("src/data.txt");
+            File myObj = new File("src/day01/data.txt");
             Scanner myReader = new Scanner(myObj);
             List<Integer> listNumber1 = new ArrayList<>();
             List<Integer> listNumber2 = new ArrayList<>();
