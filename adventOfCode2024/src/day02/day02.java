@@ -82,10 +82,7 @@ public class day02 {
                     counter++;
                 }
             }
-
             System.out.println("Report safe count: " + counter);
-
-
             myReader.close();
         } catch (
                 FileNotFoundException e) {
@@ -94,4 +91,3 @@ public class day02 {
         }
     }
 }
-
