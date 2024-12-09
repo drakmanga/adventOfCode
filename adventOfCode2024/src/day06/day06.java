@@ -71,7 +71,6 @@ public class day06 {
         int directionPosition;
         int loop = 0;
         List<List<Integer>> directions = new ArrayList<>();
-
         directions.add(Arrays.asList(-1, 0));
         directions.add(Arrays.asList(0, 1));
         directions.add(Arrays.asList(1, 0));

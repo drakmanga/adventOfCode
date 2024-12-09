@@ -22,6 +22,7 @@ public class day03 {
 
         while (matcher.find()) {
             String match = matcher.group(1);
+
             if (match.equals("do()")) {
                 doMultiply = true;
             } else if (match.equals("don't()")) {
