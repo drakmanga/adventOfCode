@@ -68,7 +68,6 @@ public class day04 {
             for (int i = 1; i < totalRows -1; i++) {
                 for (int j = 1; j < totalCols -1; j++) {
                     if (value.get(i).get(j).equals("A")) {
-                        int[][] directions = {{-1, -1}, {1, 1}, {-1, 1},{1,-1}};
                         if ((value.get(i - 1).get(j - 1).equals("M")) && (value.get(i + 1).get(j + 1).equals("S")) ||
                                 (value.get(i - 1).get(j - 1).equals("S")) && (value.get(i + 1).get(j + 1).equals("M"))) {
                             if ((value.get(i - 1).get(j + 1).equals("M")) && (value

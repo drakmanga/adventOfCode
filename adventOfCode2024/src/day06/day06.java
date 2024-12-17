@@ -99,7 +99,6 @@ public class day06 {
                         int newCol = guardPosition.get(1) + directions.get(directionPosition).get(1);
 
                         if (newRow < 0 || newCol < 0 || newRow >= map.size() || newCol >= map.get(0).size()) {
-//                            System.out.println("Out " + newRow + " " + newCol + "row: " + row + "-" + col);
                             break;
                         }
                         String newChar = map.get(newRow).get(newCol);
